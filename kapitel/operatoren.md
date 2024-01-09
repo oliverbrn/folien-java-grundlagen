@@ -13,6 +13,7 @@ Im Folgenden stellen wir Ihnen die unterschiedlichen Java-Operatoren vor.
 _>>
 ## Was sind Operatoren? 
 
+
 - Kernteil der Programmiersprache Java
 - Zusammen mit Operanden ausführbar
 - Können Variablen manipulieren
