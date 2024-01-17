@@ -86,9 +86,20 @@ Note: Antwort sollte 1 Bit sein, ist aber undefiniert. Abhängig von der Virtual
 
 _>>
 ## Zeichen-Datentyp
+
 - Auch hier gibt es nur Einen, den Character (keyword **char**)
 - 2 Byte groß
 - repräsentiert einzelne Zeichen aus Wertetabellen
 - ASCII- bzw. Unicode
 - Standardwert '\u0000'
 - "\u" ist eine sog. Escapesequenz, macht dem Compiler klar, dass ein 4-Stelliger, hexadezimaler Unicode folgt. Es gibt verschiede Escapesequenzen, später mehr...
+
+
+_>>
+## String
+
+- Darstellung von Zeichenketten
+- KEIN primitiver Datentyp
+- kann wie primitiver Datentyp initialisiert werden
+- doppelte Anführungsstriche '"' um Text darzustellen
+- Bsp.: **String** name = "Karsten";

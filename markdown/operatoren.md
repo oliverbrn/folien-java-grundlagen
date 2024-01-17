@@ -111,13 +111,30 @@ _>>
 *a += b* → *a = a + b*
 
 Beispiel: 
-  ```java
-        int i = 3;
-        i += 4;     // i = i + 4; -> 7
+```java
+    int i = 3;
+    i += 4;     // i = i + 4; -> 7
 
-        double d = 3.2;
-        d /= 2;     // d = d / 2; -> 1.6
-  ```
+    double d = 3.2;
+    d /= 2;     // d = d / 2; -> 1.6
+```
+
+_>> 
+### Übung - Was wird hier am Ende ausgegeben?
+
+```java
+    int i = 10;
+    int x = 5;
+    
+    i += x;
+    x -= 3;
+    i /= 2;
+    i += x--;
+    
+    System.out.println("Das Ergebnis ist: " + i + "4");
+```
+
+Note: i ist am Ende 9; Ausgabe: "Das Ergebnis ist 94"
 
 
 _>>

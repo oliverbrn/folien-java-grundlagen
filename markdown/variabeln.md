@@ -46,7 +46,6 @@ Hier die Definition einer Variable und folgende Initialisierung:
     zeichen = 'h';
 ```
 
-
 ## Deklaration
 
 - beschreibt die Definition und Initialisierung in einem Schritt
@@ -58,6 +57,19 @@ Hier die Definition einer Variable und folgende Initialisierung:
     boolean istNatuerlichePerson = false;
 ```
 
+_>>
+
+Es können übrigens auch mehrere Variablen vom selben Typen in einer Anweisung definiert oder deklariert werden!  
+```java
+    int i, j, k;                    // 3x ?
+    char c = '?', d = '\u2093', e;  // 2x ?, 1x ?
+
+    i = 10;     // ?
+    j = 5;      // ?
+    k = 0;      // ?
+    e = d;      // ?
+```
+Note: Frage, was passiert hier? (Definition, Initialisierung, Deklaration)
 
 ## Konstanten
 
