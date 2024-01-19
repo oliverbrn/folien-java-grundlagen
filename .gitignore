@@ -1,2 +1,8 @@
-.idea
+# Default ignored files
+/shelf/
 *.iml
+
+!docs
+docs/test
+docs/examples
+!docs/node_modules
